@@ -8,5 +8,14 @@ namespace BinarySortTree
 {
     class Node
     {
+        public int data;
+        public Node nextNode;
+
+
+
+        public Node(int data)
+        {
+            this.data = data;
+        }
     }
 }
