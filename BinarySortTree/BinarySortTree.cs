@@ -8,5 +8,15 @@ namespace BinarySortTree
 {
     class BinarySortTree
     {
+        public Node rootNode;
+
+        public void Add(Node nodeToAdd)
+        {
+            if(rootNode == null)
+            {
+                rootNode = nodeToAdd;
+            }
+            else
+        }
     }
 }
