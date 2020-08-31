@@ -17,6 +17,10 @@ namespace BinarySortTree
                 rootNode = nodeToAdd;
             }
             else
+            {
+                Node currentNode = rootNode;
+
+            }
         }
     }
 }
